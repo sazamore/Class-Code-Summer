@@ -2,7 +2,7 @@
 <i>Example scripts of code that we build in class!</i>
 <br>
 <br>
-The code in this repository serves as a way to check your code that you build in class against tested and finalized code! <b>
+The code in this repository serves as a way to check your code that you build in class against tested and finalized code! <br>
   
 <br>
 Good practices with this code:
