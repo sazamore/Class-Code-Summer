@@ -26,7 +26,8 @@ span = 60
 randTurt.color('green')
 randTurt.shapesize(2) # make it big so we can see it clearly
 randTurt.up() # don't draw, just move around
-randTurt.speed(1)
+randTurt.speed(10)
+randTurt.width(3) # made it bigger for visibility
 
 
 while running:
@@ -42,6 +43,7 @@ while running:
     if xbounds or ybounds:
         
         # moves the turtle back to center if it wanders out of bounds
+        randTurt.up() # don't draw the path home.
         randTurt.home()
 
 panel.mainloop() #keeps listeners on so we can get interactivity\
