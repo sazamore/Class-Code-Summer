@@ -7,12 +7,12 @@ Created on Thu Sep 17 14:48:01 2020
 Draw squares in opposite directions at the same time.
 """
 
-from turtle import *
+import turtle
 
 #  **** add this to use 0-255 values for color! ****
-colormode(255) 
+turtle.colormode(255) 
 
-gradient = Turtle()
+gradient = turtle.Turtle()
 gradient.width(6)
 
 # set color channel variables
@@ -46,5 +46,5 @@ for i in range(40):
     # change the turtle color
     gradient.color(red, green, blue)
     
-done() # clean up so we can close the window after the code runs
+turtle.done() # clean up so we can close the window after the code runs
         
