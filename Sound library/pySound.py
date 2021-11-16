@@ -12,7 +12,14 @@ https://www.pygame.org/docs/ref/music.html
 
 
 HOW TO USE THIS CODE:
+
+    INSTALL PYGAME.
+    1. go to command line interface
+    2. type in:
+    pip install pygame
+    3. press enter
     
+    USE THE CODE:
     1. You can run it! And see how it works!
     2. You can import it, and use the methods inside the library!
         from pySound import Sound
