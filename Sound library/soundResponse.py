@@ -15,7 +15,7 @@ You can have one soundCtrlr object manipulate multiple animations this way.
 
 The sound file associated with this script (tech.wav) has a commons license.
 
-***Using this class will NOT COUNT toward your final number of classes when scoring your final code.
+***Using this class will NOT COUNT toward your final number of classes (if applicable) when scoring your final code.
 
 """
 from pydub import AudioSegment
