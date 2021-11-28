@@ -118,7 +118,8 @@ if __name__ == "__main__":
     else:
         # There is no high score yet!
         initials =  input("Enter your 2 initials. Example: AA  \n")
-        # Protip: see textBox.py for on-screen typing!
+        # Protip: use turtle's Screen textinput on-screen typing!
+            # panel.textinput('blahblah')
         
         # Organize data (if not done already)
         data = [initials, 100]  # make list of data: initials & score value
