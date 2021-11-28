@@ -120,6 +120,7 @@ if __name__ == "__main__":
         initials =  input("Enter your 2 initials. Example: AA  \n")
         # Protip: use turtle's Screen textinput on-screen typing!
             # panel.textinput('blahblah')
+            # Example at: https://stackoverflow.com/questions/49034728/how-to-make-a-dialogue-box-in-turtle-take-an-input
         
         # Organize data (if not done already)
         data = [initials, 100]  # make list of data: initials & score value
