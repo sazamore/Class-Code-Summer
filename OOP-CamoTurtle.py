@@ -7,6 +7,10 @@ Created on Mon Nov 1 22:13:36 2021
 
 CamoTurtle
 
+************************************************************
+**      YOUTUBE TUTORIAL: https://youtu.be/cNEGXOJ2toY    **
+************************************************************
+
 Objective:
     Try to click on any of the target turtles!
 Rules:
