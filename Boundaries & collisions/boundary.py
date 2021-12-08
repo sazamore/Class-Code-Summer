@@ -98,7 +98,7 @@ class Boundary:
                 targX = target[i].xcor()
                 targY = target[i].ycor()
                 if round(targX)-buffer<=round(x)<=round(targX)+buffer and round(targY)-buffer<=round(y)<=round(targY)+buffer:
-                    return True # collision detected. Return True and stop running the method.
+                    return True, i # collision detected. Return True *and position in list* and stop running the method.
             return False # no collision detected in list. Return False and stop running the method.
         
         elif type(target)== turtle.Turtle:
@@ -106,7 +106,7 @@ class Boundary:
             targX = target[i].xcor()
             targY = target[i].ycor()
             if round(targX)-buffer<=round(x)<=round(targX)+buffer and round(targY)-buffer<=round(y)<=round(targY)+buffer:
-                return True
+                return True, i
         else:
             return False
         
