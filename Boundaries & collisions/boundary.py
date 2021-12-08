@@ -5,7 +5,7 @@ Created on Wed Dec  2 18:13:50 2020
 
 @author: Dr Z
 
-Walled In
+THIS IS A LIBRARY!
 
 A turtle bounces around the screen 5 times using the same function from
 bounceTurt.py
