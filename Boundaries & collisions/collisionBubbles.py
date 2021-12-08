@@ -54,9 +54,9 @@ def isCollision(turt,target,buffer=30):
             targX = target[i].xcor()
             targY = target[i].ycor()
             if round(targX)-buffer<=round(x)<=round(targX)+buffer and round(targY)-buffer<=round(y)<=round(targY)+buffer:
-                return True
-            else:
-                return False
+                return True # collision found? return a True and stop running the method.
+        return False # no collision found? Return a False
+      
     elif type(target)== turtle.Turtle:
         # If it's a turtle, get its position and checks for collision
         targX = target[i].xcor()
