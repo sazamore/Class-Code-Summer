@@ -103,10 +103,10 @@ class Boundary:
         
         elif type(target)== turtle.Turtle:
             # If it's a turtle, get its position and checks for collision
-            targX = target[i].xcor()
-            targY = target[i].ycor()
+            targX = target.xcor()
+            targY = target.ycor()
             if round(targX)-buffer<=round(x)<=round(targX)+buffer and round(targY)-buffer<=round(y)<=round(targY)+buffer:
-                return True, i
+                return True
         else:
             return False
         
